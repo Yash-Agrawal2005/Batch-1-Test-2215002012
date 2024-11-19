@@ -79,6 +79,17 @@ document.addEventListener('DOMContentLoaded', async () => {
             renderLeaderboard(filteredData);
         };
 
+        // function addRowHandlers(){
+        //     let rows=document.getElementById('').rows;
+        //     for(i=0;i<rows.length;i++){
+        //         rows[i].onclick=function(){ return function(){
+        //             let id=this.cells[0].innerHTML;
+        //             alert(id+'id');
+
+        //         };
+        //     }(rows[i]);
+        // window.onload=addRowHandlers();
+
         // Sorting logic with ascending and descending functionality
         let totalSolvedDirection = 'desc';
         let easySolvedDirection = 'desc';
